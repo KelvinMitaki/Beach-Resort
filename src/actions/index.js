@@ -16,3 +16,10 @@ export const roomTypeChange = () => {
     type: "ROOM_TYPE_CHANGE",
   };
 };
+
+export const minAndMaxAction = (minAndMaxObj) => {
+  return {
+    type: "MIN_AND_MAX_ACTION",
+    payload: minAndMaxAction,
+  };
+};
