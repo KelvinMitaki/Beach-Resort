@@ -123,16 +123,17 @@ export class RoomFilter extends Component {
               onChange={this.handleChange}
             />
             <label htmlFor="breakfast">breakfast</label>
-          </div>
-          <div className="single-extra">
-            <input
-              type="checkbox"
-              name="pets"
-              id="pets"
-              checked={pets}
-              onChange={this.handleChange}
-            />
-            <label htmlFor="pets">pets</label>
+
+            <div className="single-extra">
+              <input
+                type="checkbox"
+                name="pets"
+                id="pets"
+                checked={pets}
+                onChange={this.handleChange}
+              />
+              <label htmlFor="pets">pets</label>
+            </div>
           </div>
         </form>
       </section>
